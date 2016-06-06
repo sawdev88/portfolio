@@ -1,0 +1,129 @@
+html {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+body {
+  background: url(../img/cloud_bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #321D2E;
+  font-family: 'Play', sans-serif;
+}
+
+.container-fluid {
+  min-height: 300px;
+  overflow: hidden;
+}
+
+.mission {
+  display: none;
+}
+
+h1 {
+  position: relative;
+  font-size: 50px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  opacity: .98;
+}
+
+h2 {
+  position: relative;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  opacity: .98;
+}
+
+#check {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.rocket {
+  position: relative;
+  left: -300px;
+  top: 50px;
+}
+
+.guy {
+  position: relative;;
+  right: -1800px;
+  margin-top: 60px;
+}
+
+.star_pink {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  opacity: .5;
+}
+
+.star_blue {
+  position: absolute;
+  top: 220px;
+  left: 40%;
+  opacity: .5;
+}
+
+.star_yellow {
+  position: absolute;
+  top: 300px;
+  left: 10%;
+  opacity: .5;
+}
+
+.star_teal {
+  position: absolute;
+  top: 8%;
+  left: 18%;
+  opacity: .5;
+}
+
+.icons {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+.icons a {
+  color: #321D2E;
+  opacity: .7;
+}
+
+.icons a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 520px) {
+  h1{
+    font-size: 40px;
+    padding-bottom: 5px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  #works{
+    margin-top: 20px;
+  }
+  .guy{
+    margin-top: 25px;
+  }
+  .star_yellow{
+    top: 160px;
+  }
+  .star_teal{
+    top: 2px;
+  }
+}

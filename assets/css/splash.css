@@ -1,0 +1,147 @@
+html {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+body {
+  background: url(../img/moon.png) no-repeat center center fixed;
+	background-size: cover;
+  font-family: 'Play', sans-serif;
+}
+
+.name_droppin {
+  position: absolute;
+  right: 10%;
+  top: 30%;
+  color: #fff;
+  opacity: .8;
+}
+
+.name_droppin h1 {
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.name_droppin p {
+  width: 200px;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.enter {
+  padding-top: 20px;
+}
+
+.enter button {
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid #fff;
+  border-radius: 5%;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  width: 100%;
+}
+
+.enter a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  opacity: .8;
+}
+
+button:hover {
+  transition: .4s linear;
+  box-shadow: 0 0 20px skyblue;
+  border: 2px solid skyblue;
+  cursor: pointer;
+  opacity: .4;
+}
+
+button:hover a{
+  transition: .2s linear;
+  color: skyblue;
+  opacity: 1;
+}
+
+.star_pink {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  opacity: .5;
+}
+
+.star_blue {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  opacity: .5;
+}
+
+.star_yellow {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  opacity: .5;
+}
+
+.star_teal {
+  position: absolute;
+  top: 8%;
+  right: 18%;
+  opacity: .5;
+}
+
+.star_pink_2 {
+  position: absolute;
+  top: 30%;
+  right: 30px;
+  opacity: .5;
+}
+
+.star_blue_2 {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+  opacity: .5;
+}
+
+.star_yellow_2 {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  opacity: .5;
+}
+
+.star_teal_2 {
+  position: absolute;
+  top: 38%;
+  right: 35%;
+  opacity: .5;
+}
+
+@media (max-width: 580px) {
+  .name_droppin{
+    top: 68%;
+    right: 6%;
+  }
+  .enter{
+    position: absolute;
+    bottom: 3px;
+    right: 2px;
+    padding: 0;
+  }
+  button{
+    padding: 0 4px;
+  }
+  .name_droppin p {
+    font-size: 15px;
+  }
+  .name_droppin span{
+    font-size: 12px;
+  }
+  hr{
+    margin: 15px 0 30px 0;
+  }
+}
